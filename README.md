@@ -10,7 +10,7 @@ Requirement Analysis is a critical phase in the software development lifecycle (
 
 ## Why is Requirement Analysis Important?
 
-![requirement analyisi drawio](https://github.com/user-attachments/assets/31102612-20e3-4fca-8485-16467e5b41c4)
+![requirement drawio](https://github.com/user-attachments/assets/0c10091a-1e1f-468d-9e52-035f061ec7cc)
 
 
 - **Clarity and Understanding**: It helps in understanding what the stakeholders expect from the software, reducing ambiguity.
@@ -75,3 +75,27 @@ Requirement Analysis is a critical phase in the software development lifecycle (
 - **Scalability**: The system should be able to scale horizontally to handle increased traffic.
 - **Usability**: The application should have an intuitive UI/UX, making it easy for users to navigate and perform tasks.
 - **Reliability**: The system should have an uptime of 99.9% and recover quickly from any failures.
+
+
+## Use Case Diagrams 📊
+Objective: Visual representation of interactions between users and the system.
+
+### What are Use Case Diagrams?
+
+Use case diagrams show how different users (actors) interact with the system to achieve specific goals (use cases).
+Creating Use Case Diagrams:
+
+- Identify actors (e.g., guest, registered user, admin).
+- Define use cases (e.g., search properties, book property, manage listings).
+- Draw interactions between actors and use cases.
+
+  
+### Benefits of Use Case Diagrams:
+
+- Provide a clear visual representation of system functionalities.
+- Help in identifying and organizing system requirements.
+- Facilitate communication among stakeholders and development team.
+
+![alx-booking-uc](https://github.com/user-attachments/assets/041998a4-168b-4acb-a6af-969f89e33b2a)
+
+
