@@ -98,4 +98,86 @@ Creating Use Case Diagrams:
 
 ![alx-booking-uc](https://github.com/user-attachments/assets/041998a4-168b-4acb-a6af-969f89e33b2a)
 
+## Acceptance Criteria
+
+Objective: Establishing clear criteria for feature completion.
+
+### What is Acceptance Criteria?
+
+Acceptance criteria are conditions that a feature must meet to be accepted by the stakeholders.
+
+### How to Define Acceptance Criteria:
+
+- Be specific and measurable.
+- Include functional and non-functional aspects.
+  
+
+### Benefits of Acceptance Criteria:
+
+- Ensure all parties have a clear understanding of feature requirements.
+- Provide a basis for testing and validation.
+- Help in maintaining quality and meeting user expectations.
+
+
+#### ✅ **Feature: Checkout**
+
+##### **User Story**
+
+*As a registered user, I want to securely complete a booking and make a payment so that I can confirm my stay at a selected property.*
+
+##### **Acceptance Criteria**
+
+1. **Property and Date Validation**
+
+   * Given a user selects a property and date range,
+     When they proceed to checkout,
+     Then the system must verify the property is still available for the selected dates.
+
+2. **User Authentication**
+
+   * Given a user is not logged in,
+     When they attempt to access the checkout page,
+     Then they are redirected to the login page.
+
+3. **Pricing Summary**
+
+   * Given a user is on the checkout page,
+     When the page loads,
+     Then the system should display the full booking summary, including:
+
+     * Property name
+     * Stay duration
+     * Base price
+     * Taxes/fees
+     * Total amount due
+
+4. **Payment Information Input**
+
+   * Given a user is on the checkout page,
+     When they enter payment details,
+     Then the form must validate card number, expiration, and CVV.
+
+5. **Successful Payment**
+
+   * Given a user submits valid payment details,
+     When the payment is processed successfully,
+     Then:
+
+     * A booking confirmation is displayed
+     * A confirmation email is sent
+     * The property’s availability is updated
+
+6. **Failed Payment**
+
+   * Given a user submits invalid or declined payment details,
+     When the payment fails,
+     Then an error message is displayed, and the user is prompted to try again.
+
+7. **Cancellation Option**
+
+   * Given a booking is completed,
+     When the user views their booking details,
+     Then a "Cancel Booking" button is shown (based on cancellation policy).
+
+
 
